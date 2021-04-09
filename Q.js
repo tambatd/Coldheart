@@ -33,7 +33,7 @@ b2+=-5;
  // circle(width/2,height/2,100);
 }
 
-function mouseClicked(){
+function touchStarted(){
 if(background_col == 0){
       background_col=1;
       background(255);
