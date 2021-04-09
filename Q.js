@@ -10,7 +10,10 @@ function setup() {
   createCanvas(x,y);
   //size(width,height);
   background(0);
-
+  textSize(32);
+  
+      stroke(random(255),random(255),random(255));  
+      text(" CLICK  ME", width/2, height/2); 
 
 }
 
